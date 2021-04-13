@@ -2,7 +2,7 @@
 
 ## Introduction
 
-As the human civilization continued to grow, the data and the need to search quickly through that data
+As the Human civilization continued to evolve, the data and the need to search quickly through that data
 increased as well. There are so many things in our real life that we need to search for, from a word in
 dictionary to a phone number in contact list, from roll in merit list to a record in large dataset. It
 all would have been big trouble if data was unordered.
@@ -40,5 +40,7 @@ to write it again and again.
 Cost |  Feature  |    Time    | 
 -------|---------|----------------|
 10 |   |   |
+
+## SWOT Analysis
 
 ![SWOT](SWOT.png)
