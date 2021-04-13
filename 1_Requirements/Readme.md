@@ -14,8 +14,8 @@ order data and now known as Sorting Algorithms.
 ### Sorting Algorithms in Data Structures Feature and Benefits
 
 Computer memory is a huge block of  0s and 1s and data is stored in the form of small chunks of this huge
-block. when accessing these chunks from memory, searching through whole memory is neither feasible as
-data grows exponetially nor efficient.
+block. when accessing these chunks(data) from memory, searching through the whole memory is neither
+feasible as data grows exponetially nor efficient.
 So Programmers use sorting algorithm to make searching fast and efficient. 
 Sorting does make searching fast and as a result search dependent operation like deletion, insertion,
 updation also improves significantly.
