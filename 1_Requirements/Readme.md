@@ -44,3 +44,7 @@ Cost |  Feature  |    Time    |
 ## SWOT Analysis
 
 ![SWOT](SWOT.png)
+
+## Designing the System
+
+![System Design](System Design.png)
