@@ -48,3 +48,23 @@ Cost |  Feature  |    Time    |
 ## Designing the System
 
 ![Design](Design.png)
+
+# Detail Requirements
+
+## High Level Requirements:
+
+ID |  Description  |    Category    |     Status    |
+-------|---------|----------------|----------------|
+HR01 | User shall be able to input data  |  Technical | TBD-S1
+HR02 | User shall be able Choose algorithm|  Technical | TBD-S1
+HR03 | User shall be able View results  |  Technical | TBD-S1
+HR04 | User shall be able to recursively perform above steps  |  Technical | TBD-S1
+
+## Low Level Requirements:
+
+ID |  Description  |    HLR ID    |     Implemented/Future    |
+-------|---------|----------------|----------------|
+LR01 | New data shall be provided such as size of array and array elements by user  |  HR01 | TBD-S1
+LR02 | User shall be prompted to choose sorting algorithm from the list|  HR02 | TBD-S1
+LR03 | After performing the sorting data shall be visible to user  |  HR03 | TBD-S1
+LR04 | Programs shall ask user if they want to repeat the process  |  HR04 | TBD-S1
