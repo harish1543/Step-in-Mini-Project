@@ -47,4 +47,4 @@ Cost |  Feature  |    Time    |
 
 ## Designing the System
 
-![System Design](System Design.png)
+![Design](Design.png)
