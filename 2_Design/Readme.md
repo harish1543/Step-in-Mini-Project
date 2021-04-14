@@ -2,7 +2,7 @@
 
 ## High Level Design
 
-### Architecture Design:
+### Architecture Design
 
 ![Architecture](Architecture.png)
 

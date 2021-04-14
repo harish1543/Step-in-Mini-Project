@@ -45,7 +45,7 @@ int main()
             heapSort(InputArray, ArraySize);
             break;
             default:
-            printf("invalid choice");
+            printf("invalid choice\n");
             goto start;
             break;
         }

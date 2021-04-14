@@ -49,9 +49,9 @@ Cost |  Feature  |    Time    |
 
 ![Design](Design.png)
 
-# Detail Requirements
 
-## High Level Requirements:
+
+## High Level Requirements
 
 ID |  Description  |    Category    |     Status    |
 -------|---------|----------------|----------------|
@@ -60,7 +60,7 @@ HR02 | User shall be able Choose algorithm|  Technical | TBD-S1
 HR03 | User shall be able View results  |  Technical | TBD-S1
 HR04 | User shall be able to recursively perform above steps  |  Technical | TBD-S1
 
-## Low Level Requirements:
+## Low Level Requirements
 
 ID |  Description  |    HLR ID    |     Implemented/Future    |
 -------|---------|----------------|----------------|
