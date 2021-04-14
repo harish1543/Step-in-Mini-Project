@@ -49,8 +49,6 @@ Cost |  Feature  |    Time    |
 
 ![Design](Design.png)
 
-
-
 ## High Level Requirements
 
 ID |  Description  |    Category    |     Status    |
