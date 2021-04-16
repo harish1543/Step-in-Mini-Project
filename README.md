@@ -1,6 +1,7 @@
 # Implementing Various Different Sorting Algorithms
 
 [![CI](https://github.com/harish1543/Step-in-Mini-Project/actions/workflows/blank.yml/badge.svg)](https://github.com/harish1543/Step-in-Mini-Project/actions/workflows/blank.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b591ce0bbb05440cb8f698e39b308ff5)](https://www.codacy.com/gh/harish1543/Step-in-Mini-Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=harish1543/Step-in-Mini-Project&amp;utm_campaign=Badge_Grade)
 
 ## Folder Structure
 Folder             | Description
