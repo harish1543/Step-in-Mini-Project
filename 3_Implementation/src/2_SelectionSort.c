@@ -1,12 +1,12 @@
 #include <stdio.h>
-/*
-void swap(int *xp, int *yp) 
-{ 
-    int temp = *xp; 
-    *xp = *yp; 
-    *yp = temp; 
-} 
-  */
+
+/**
+ * @brief : sorts the input array using selection sort
+ * 
+ * @param arr : input array 
+ * @param n : size of input array
+ */
+
 void selectionSort(int arr[], int n) 
 { 
   

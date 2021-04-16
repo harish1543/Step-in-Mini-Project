@@ -18,11 +18,12 @@ int main()
         scanf("%d",&ArraySize);
         for(int i=0;i<ArraySize ;i++)
         {
-            scanf("%d",InputArray[i]);
+            printf("Enter element %d : ",i+1);
+            scanf("%d",&InputArray[i]);
         }
         start:
         printf("\nChoose The Sorting Algorithm:\n1. Bubble Sort \n2. Selection Sort \n3. Insertion Sort \n4. Merge Sort \n5. Quick Sort \n6. Heap Sort");
-        printf("\n Enter choice: ");
+        printf("\nEnter choice: ");
         scanf("%d", &choice);
         switch(choice)
         {
@@ -36,10 +37,10 @@ int main()
             insertionSort(InputArray, ArraySize);
             break;
             case 4:
-            mergeSort(InputArray, 0, ArraySize);
+            mergeSort(InputArray, 0, ArraySize-1);
             break;
             case 5:
-            quickSort(InputArray, 0, ArraySize);
+            quickSort(InputArray, 0, ArraySize-1);
             break;
             case 6:
             heapSort(InputArray, ArraySize);
@@ -49,11 +50,12 @@ int main()
             goto start;
             break;
         }
+        printf("\nSorted Array: ");
         for(int i=0;i<ArraySize ;i++)
         {
-            printf("%d",InputArray[i]);
+            printf("%d ",InputArray[i]);
         }
-        printf("\n1. Repeat the Process \n2. exit");
+        printf("\n1. Repeat the Process \n2. exit\nEter choice: ");
         scanf("%d",&choice2);
         if(choice2==2)
         {

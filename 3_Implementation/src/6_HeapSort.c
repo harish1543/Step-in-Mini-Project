@@ -1,12 +1,11 @@
 #include<stdio.h>
-/*
-void swap(int *xp, int *yp) 
-{ 
-    int temp = *xp; 
-    *xp = *yp; 
-    *yp = temp; 
-}
-*/
+/**
+ * @brief : function to heapify a subtree rooted at index i
+ * 
+ * @param arr : input array
+ * @param n : size of array
+ * @param i : root of the heap
+ */
 void heapify(int arr[], int n, int i)
 {
     int largest = i;
@@ -27,7 +26,12 @@ void heapify(int arr[], int n, int i)
         heapify(arr, n, largest);
     }
 }
- 
+ /**
+  * @brief : function to implement heap sort
+  * 
+  * @param arr : input array 
+  * @param n : size of array
+  */
 
 void heapSort(int arr[], int n)
 {

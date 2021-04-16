@@ -1,5 +1,11 @@
 #include<stdio.h>
 
+/**
+ * @brief : sorts input array using insertion sort
+ * 
+ * @param arr : input array
+ * @param n : size of input array
+ */
 void insertionSort(int arr[], int n)
 {
     for (int i = 1; i < n; i++)

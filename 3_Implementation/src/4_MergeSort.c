@@ -1,4 +1,12 @@
 #include<stdio.h> 
+/**
+ * @brief : merges the two subarray into one
+ * 
+ * @param arr :input array
+ * @param l : base address of the array
+ * @param m : mid point of the array
+ * @param r : end address pof the array
+ */
 
 void merge(int arr[], int l, int m, int r)
 {
@@ -41,7 +49,13 @@ void merge(int arr[], int l, int m, int r)
         k++;
     }
 }
- 
+ /**
+  * @brief : recursively breaks input array into two equal parts until only one element is left and themn merges it in sorted order
+  * 
+  * @param arr : input array
+  * @param l : lower bound of the array
+  * @param r : upper bound of the array
+  */
 void mergeSort(int arr[],int l,int r){
     if(l>=r){
         return;

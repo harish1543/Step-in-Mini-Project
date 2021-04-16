@@ -1,12 +1,13 @@
 #include<stdio.h>
 
-/*void swap(int* a, int* b)
-{
-    int t = *a;
-    *a = *b;
-    *b = t;
-}*/
-
+/**
+ * @brief : picks the pivot as last element and places it at its right location.
+ * 
+ * @param arr : input array
+ * @param low : lower bound of the array
+ * @param high : upper bound of the array
+ * @return int : returns the index of partitioned array
+ */
 int partition (int arr[], int low, int high)
 {
     int pivot = arr[high]; 
@@ -23,7 +24,13 @@ int partition (int arr[], int low, int high)
     swap(&arr[i + 1], &arr[high]);
     return (i + 1);
 }
- 
+ /**
+  * @brief : function that implements quick sort
+  * 
+  * @param arr : input array 
+  * @param low : lower bound of array
+  * @param high : upper bound of array
+  */
 
 void quickSort(int arr[], int low, int high)
 {
