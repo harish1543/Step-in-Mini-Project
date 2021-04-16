@@ -1,4 +1,7 @@
 # Implementing Various Different Sorting Algorithms
+
+[![CI](https://github.com/harish1543/Step-in-Mini-Project/actions/workflows/blank.yml/badge.svg)](https://github.com/harish1543/Step-in-Mini-Project/actions/workflows/blank.yml)
+
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
